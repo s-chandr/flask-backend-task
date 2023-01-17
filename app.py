@@ -23,7 +23,7 @@ DELETE_LIKES = (" DELETE FROM LIKES WHERE message_id = %s AND user_id = %s; ")
 CHECK = ("SELECT * from LIKES WHERE message_id = %s AND user_id = %s ; ") #error
 
 #when first time execute code set it to false
-execute_once = True
+execute_once = False
 
 ADD_LIKES_TRIGGER = ("""CREATE OR REPLACE FUNCTION increase_like()
 RETURNS TRIGGER AS
