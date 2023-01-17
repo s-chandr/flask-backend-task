@@ -1,5 +1,6 @@
 # flask-backend-task
-run project by installing dependencies from requirements.txt file
 
+# install all dependencies from requirements.txt file
 
-flask run 
+# run project by flask run 
+
